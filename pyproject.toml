@@ -1,0 +1,16 @@
+[project]
+name = "twitch-streams"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aws-cdk-lib>=2.168.0",
+    "constructs>=10.4.2",
+]
+
+[dependency-groups]
+dev = [
+    "projen>=0.90.5",
+    "pytest>=8.3.3",
+]
